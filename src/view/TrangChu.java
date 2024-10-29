@@ -1248,7 +1248,7 @@ public class TrangChu extends javax.swing.JFrame implements View {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jLabel51)
-                .addGap(0, 982, Short.MAX_VALUE))
+                .addGap(0, 979, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1271,8 +1271,6 @@ public class TrangChu extends javax.swing.JFrame implements View {
 
         themBan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/add_circle_FILL0_wght400_GRAD0_opsz20.png"))); // NOI18N
         themBan.setText("Thêm");
-        themBan.setMaximumSize(new java.awt.Dimension(84, 27));
-        themBan.setMinimumSize(new java.awt.Dimension(84, 27));
         themBan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 themBanActionPerformed(evt);

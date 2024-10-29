@@ -410,7 +410,7 @@ public class Dao {
     }
 
     public boolean removeTraining(String maHD) {
-        String delete = "DELETE FROM tblHoatDongDaoTao Where maHD = ?";
+        String delete = "DELETE FROM tblHoatDongDaoTao Where maHDDT = ?";
         try {
             PreparedStatement ps = conn.prepareStatement(delete);
             ps.setString(1, maHD);
